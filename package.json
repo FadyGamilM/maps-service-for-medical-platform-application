@@ -1,0 +1,54 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-google-maps/api": "^2.10.2",
+    "@syncfusion/ej2-react-maps": "^20.1.48",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "@tomtom-international/web-sdk-maps": "^6.18.0",
+    "bingmaps-react": "^1.2.10",
+    "deck.gl": "^8.7.8",
+    "elements-x": "^2.1.11",
+    "mapbox-gl": "^2.8.2",
+    "pigeon-maps": "^0.21.0",
+    "react": "^18.1.0",
+    "react-bingmaps": "^3.6.1",
+    "react-bingmaps-plus": "^3.7.2",
+    "react-dom": "^18.1.0",
+    "react-map-gl": "^7.0.11",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  }
+}
